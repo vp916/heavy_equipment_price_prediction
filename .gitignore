@@ -1,0 +1,81 @@
+
+# Python
+
+__pycache__/
+*.py[cod]
+*.so
+
+
+# Virtual Environment
+
+bin/
+include/
+lib/
+lib64
+share/
+etc/
+pyvenv.cfg
+
+# CatBoost
+
+
+catboost_info/
+
+notebook/train_model.ipynb
+notebook/train_model.py
+# Jupyter
+
+
+.ipynb_checkpoints/
+
+
+
+# Dataset
+
+*.csv
+
+
+
+# Models / Artifacts
+
+models/
+*.pkl
+*.pickle
+*.joblib
+*.bin
+
+
+
+# Submissions
+
+
+submissions/
+
+
+
+# IDE
+
+
+.vscode/
+.idea/
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+Scripts
+
+# Virtual environment in a .venv folder (recommended setup)
+.venv/
+venv/
